@@ -57,7 +57,7 @@ export default function InboxPage() {
 				{filteredMessages.map((message) => (
 					<div
 						key={message.id}
-						className="p-4 bg-white rounded-lg shadow transition hover:shadow-lg"
+						className="p-4 bg-background rounded-lg shadow transition hover:shadow-lg"
 					>
 						<h2 className="text-xl font-semibold">
 							{message.subject}

@@ -17,7 +17,7 @@ export default function ConfigurationPage() {
 			{/* Configuration Options Grid */}
 			<section className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
 				{/* Account Settings Card */}
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Account</h2>
 					<p className="text-muted-foreground mb-4">
 						View and edit your personal information.
@@ -31,7 +31,7 @@ export default function ConfigurationPage() {
 				</div>
 
 				{/* Security Settings Card */}
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Security</h2>
 					<p className="text-muted-foreground mb-4">
 						Keep your account safe with strong security settings.
@@ -45,7 +45,7 @@ export default function ConfigurationPage() {
 				</div>
 
 				{/* Integrations Card */}
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Integrations</h2>
 					<p className="text-muted-foreground mb-4">
 						Connect with third-party services to enhance your
@@ -60,7 +60,7 @@ export default function ConfigurationPage() {
 				</div>
 
 				{/* Billing Card */}
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Billing</h2>
 					<p className="text-muted-foreground mb-4">
 						View your billing history and update payment methods.

@@ -15,21 +15,21 @@ export default function LayoutRoute() {
 
 			{/* Grid Layout for Layout Options */}
 			<section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Grid Layout</h2>
 					<p className="text-muted-foreground">
 						A modern grid-based layout for displaying your data
 						elegantly.
 					</p>
 				</div>
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">List Layout</h2>
 					<p className="text-muted-foreground">
 						A classic list layout for streamlined information
 						display.
 					</p>
 				</div>
-				<div className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg">
+				<div className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg">
 					<h2 className="text-xl font-semibold mb-2">Card Layout</h2>
 					<p className="text-muted-foreground">
 						Use card layout for a flexible and responsive design.

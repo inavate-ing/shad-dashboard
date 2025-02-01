@@ -52,7 +52,7 @@ export default function ReportsPage() {
 				{filteredReports.map((report) => (
 					<div
 						key={report.id}
-						className="p-6 bg-white rounded-lg shadow transition hover:shadow-lg"
+						className="p-6 bg-background rounded-lg shadow transition hover:shadow-lg"
 					>
 						<h2 className="text-xl font-semibold mb-2">
 							{report.title}

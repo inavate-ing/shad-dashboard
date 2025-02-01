@@ -21,19 +21,19 @@ export default function Home() {
 			</section>
 
 			<section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-				<div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+				<div className="p-6 bg-background rounded-lg shadow hover:shadow-lg transition">
 					<h2 className="text-2xl font-semibold mb-2">Analytics</h2>
 					<p className="text-muted-foreground">
 						View detailed analytics about your performance.
 					</p>
 				</div>
-				<div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+				<div className="p-6 bg-background rounded-lg shadow hover:shadow-lg transition">
 					<h2 className="text-2xl font-semibold mb-2">Resources</h2>
 					<p className="text-muted-foreground">
 						Manage your resources and assets here.
 					</p>
 				</div>
-				<div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+				<div className="p-6 bg-background rounded-lg shadow hover:shadow-lg transition">
 					<h2 className="text-2xl font-semibold mb-2">Projects</h2>
 					<p className="text-muted-foreground">
 						Keep track of your ongoing projects.

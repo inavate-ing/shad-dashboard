@@ -136,7 +136,7 @@ const Sidebar = ({ activeItem, onItemClick }: SidebarProps) => {
 	return (
 		<div className="flex fixed left-0 top-0 h-screen">
 			{/* Icon Sidebar */}
-			<div className="w-16 bg-background z-10 p-2 bg-white">
+			<div className="w-16 bg-background z-10 p-1 bg-background">
 				<div className="py-4 flex flex-col items-center bg-sidebar rounded h-full">
 					{/* Logo */}
 					<Button

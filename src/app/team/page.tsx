@@ -42,7 +42,7 @@ export default function TeamPage() {
 				{teamMembers.map((member, index) => (
 					<div
 						key={index}
-						className="bg-white p-6 rounded-lg shadow transition hover:shadow-lg"
+						className="bg-background p-6 rounded-lg shadow transition hover:shadow-lg"
 					>
 						<Avatar className="w-24 h-24 rounded-full mx-auto mb-4">
 							<AvatarImage

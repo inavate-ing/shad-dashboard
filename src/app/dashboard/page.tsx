@@ -48,7 +48,7 @@ export default function Dashboard() {
 				</Card>
 			</section>
 
-			<section className="bg-white p-6 rounded-lg shadow-lg">
+			<section className="bg-background p-6 rounded-lg shadow-lg">
 				<h2 className="text-xl font-semibold mb-4">
 					Performance Chart
 				</h2>
